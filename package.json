@@ -1,0 +1,46 @@
+{
+  "name": "xcursor",
+  "version": "1.0.0",
+  "description": "xcursor is a pure js x11 cursor format encoder/decoder with no dependencies for node and browser",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.15",
+    "eslint": "^3.10.2",
+    "nyc": "^10.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run mocha",
+    "lint": "eslint .",
+    "mocha": "mocha tests",
+    "cov": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linuxenko/xcursor.git"
+  },
+  "keywords": [
+    "xcur",
+    "xcursor",
+    "x11",
+    "cursor",
+    "canvas"
+  ],
+  "author": "Svetlana Linuxenko <linuxenko@yahoo.com> (http://www.linuxenko.pro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linuxenko/xcursor/issues"
+  },
+  "homepage": "https://github.com/linuxenko/xcursor#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.15",
+    "eslint": "^3.10.2",
+    "mocha": "^3.1.2",
+    "nyc": "^10.0.0"
+  }
+}
