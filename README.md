@@ -7,3 +7,21 @@
 [![screenshot](https://raw.githubusercontent.com/linuxenko/xcursor/master/examples/473216-23-11-2016-rec.gif)](http://www.linuxenko.pro/xcursor/) 
 
 
+### Installation
+
+```
+  npm install xcursor
+```
+
+### Usage
+
+```js
+var Encoder = require('xcursor').Encoder;
+var Decoder = require('xcursor').Descoder;
+```
+
+See [examples](https://github.com/linuxenko/xcursor/tree/master/examples) for more information.
+
+### License
+
+MIT (c) Svetlana Linuxenko
