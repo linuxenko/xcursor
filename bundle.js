@@ -79,7 +79,7 @@
 	};
 	
 	var oReq = new XMLHttpRequest();
-	oReq.open("GET", '/watch.cur', true);
+	oReq.open("GET", './watch.cur', true);
 	oReq.responseType = 'arraybuffer';
 	
 	oReq.onload = function (oEvent) {
