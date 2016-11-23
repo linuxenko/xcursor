@@ -12,7 +12,7 @@
   "scripts": {
     "test": "npm run lint && npm run mocha",
     "lint": "eslint lib/ && eslint tests",
-    "mocha": "_mocha -R nyan tests",
+    "mocha": "_mocha tests",
     "cov": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
