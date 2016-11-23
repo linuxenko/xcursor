@@ -50,4 +50,13 @@ describe('Test bytearray tranisitions', function() {
     expect(a.nextInt()).to.be.equal(1000);
 
   });
+
+  it('should append different ranges', function() {
+    var a = new byteArray(8);
+    a.insertBytes([1,0,0,0,2,0,0,0], 8);
+    a.off = 0;
+
+    expect(a.nextInt()).to.be.equal(1);
+    expect(a.nextInt()).to.be.equal(2);
+  });
 });
