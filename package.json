@@ -13,7 +13,8 @@
     "test": "npm run lint && npm run mocha",
     "lint": "eslint lib/ && eslint tests",
     "mocha": "_mocha tests",
-    "cov": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+    "cov": "npm run clean && nyc npm test && nyc report --reporter=text-lcov | coveralls; npm run clean",
+    "clean" : "rm -fr coverage; rm -fr .nyc_output"
   },
   "repository": {
     "type": "git",
