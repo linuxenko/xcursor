@@ -17,7 +17,7 @@
 
 ```js
 var Encoder = require('xcursor').Encoder;
-var Decoder = require('xcursor').Descoder;
+var Decoder = require('xcursor').Decoder;
 ```
 
 See [examples](https://github.com/linuxenko/xcursor/tree/master/examples) for more information.

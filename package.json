@@ -1,6 +1,6 @@
 {
   "name": "xcursor",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "xcursor is a pure js x11 cursor format encoder/decoder with no dependencies for node and browser",
   "main": "index.js",
   "directories": {
